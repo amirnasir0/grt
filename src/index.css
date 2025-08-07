@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'Nexa';
+  src: url('./assets/font_nexa/Nexa-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nexa';
+  src: url('./assets/font_nexa/nexa-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  font-family: 'Nexa', sans-serif;
+}
